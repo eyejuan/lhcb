@@ -1,0 +1,240 @@
+/*
+Theme Name: LHCB Theme
+Theme URL: https://www.coolbluei.com/
+Description: Theme Child Theme
+Author: JS
+Author URL: https://www.coolbluei.com/
+Template: gutenbergstarter
+Version: 1.0.0
+*/
+h1{
+	font-size: 46px !important;
+	font-weight: bold !important;
+    line-height: 56px !important;
+}
+h2{
+	font-size: 36px !important;
+	font-weight: bold !important;
+    line-height: 46px !important;
+}
+h3{
+	font-size: 26px !important;
+    line-height: 36px !important;
+}
+h4{
+	font-size: 20px !important;
+    line-height: 30px !important;
+}
+h5{
+	font-size: 18px !important;
+}
+h6{
+	font-size: 16px !important;
+}
+body, button, input, select, optgroup, textarea {
+    font-size: 16px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.button,
+.custom-button a{
+	text-decoration: none;
+	color: white;
+	background: rgb(0, 0, 153);
+	border: 2px solid rgb(0, 0, 153);
+	padding: 15px 25px  !important;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+.button:hover,
+.custom-button a:hover{
+	color: rgb(0, 0, 153);
+	background: white;
+}
+a.button:visited{
+	color: white;
+}
+a.button:visited:hover{
+	color: rgb(0, 0, 153);
+}
+.entry-header,
+.page-header,
+.entry-footer,
+.site-info,
+.post-navigation,
+.page-navigation,
+.comments-area,
+.not-found .page-content,
+.search .entry-summary,
+.wrapper,
+.entry-content > *,
+.footer-inner{
+  max-width: 1040px !important;
+}
+.entry-content > .alignfull {
+    max-width: 100% !important;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.wp-block-nextend-smartslider3 {
+    margin-bottom: 0 !important;
+}
+.service-block .wp-block-image img,
+.recentposts--indiv img,
+.postswrapper article img {
+    height: 215px;
+    width: 100%;
+    object-fit: cover;
+}
+.hidelast:last-child{
+	display: none;
+}
+.recentposts--wrap{
+    /*max-width: 1480px !important;*/
+    margin: 0 auto !important;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.postswrapper{
+    max-width: 1040px !important;
+    margin: 0 auto !important;
+	display: flex;
+	flex-wrap: wrap;
+}
+.recentposts--indiv,
+.postswrapper article{
+	width: 31%;
+	margin: 0;
+}
+.postswrapper article,
+.postswrapper .recentposts--indiv{
+	margin-bottom: 50px;
+}
+.recentposts--indiv:nth-of-type(2),
+.postswrapper article:nth-of-type(2),
+.recentposts--indiv:nth-of-type(5),
+.postswrapper article:nth-of-type(5),
+.recentposts--indiv:nth-of-type(8),
+.postswrapper article:nth-of-type(8){
+	margin: 0 20px;
+}
+.recentposts--indiv h3,
+.postswrapper article h2{
+	margin: 5px 0;
+	padding-right: 10px;
+}
+.postswrapper .entry-header,
+.postswrapper .entry-header .wp-post-image{
+	margin-bottom: 5px;
+}
+.postswrapper .page-content, .postswrapper .entry-content, .postswrapper .entry-summary,
+.postswrapper .entry-content > *{
+	margin: 5px 0;
+}
+.postmeta{
+	font-size: 14px;
+}
+.postmeta--cats a{
+}
+h2 a, h3 a, h4 a, h5 a{
+	text-decoration: none;
+}
+.recentposts--indiv p,
+.postswrapper article p {
+    font-size: 16px;
+}
+
+.recentposts--indiv .button,
+.postswrapper article .button{
+	margin-top: 10px;
+	display: inline-block;
+}
+.postswrapper article .button {
+    padding: 4px 15px !important;
+    font-size: 16px;
+}
+.recentposts--inner{
+	padding: 0 10px;
+}
+.py-5{
+	padding: 20px 0;
+	margin: 60px 0 !important;
+}
+.wp-pagenavi {
+    width: 100%;
+    margin: 30px auto 60px;
+    text-align: center;
+    display: block;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+    text-decoration: none;
+    border: 0;
+    padding: 5px 15px;
+    margin: 0;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current{
+	border: 2px solid rgb(0, 0, 153);
+}
+button.kt-blocks-accordion-header{
+	height: auto !important;
+}
+
+/*???????????????????*/
+header.entry-header {
+    /*margin-top: 50px;*/
+}
+/*???????????????????*/
+blockquote.wp-block-quote {
+    padding-left: 30px;
+}
+
+.main-navigation ul.sub-menu{
+	width: 300px;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+.main-navigation ul.sub-menu ul.sub-menu{
+    left: 100% !important;
+    transform: initial;
+}
+.main-navigation ul.sub-menu a{
+    width: 100%;
+    display: block;
+    padding: 20px 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: initial;
+}
+div#cookie-law-info-bar {
+    top: initial !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+}
+
+.footer-top {
+    padding: 20px 0 0;
+}
+.footer-menu ul{
+	display: inline-block;
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-menu ul li{
+	display: inline-block;
+}
+.footer-menu ul li a{
+	display: block;
+	width: auto;
+	padding: 5px 15px 5px 0;
+}
